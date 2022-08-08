@@ -1,0 +1,38 @@
+@import url(styles/header.css);
+@import url(styles/sobre.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimento.css);
+@import url(styles/footer.css);
+
+:root {
+    --cinza-escuro: #3A404E;
+    --preto: #101828;
+    --cinza-claro: #667085;
+    --branco: #FFFFFF;
+    --vermelho: #8E2424;
+    --rosa-degrade: rgba(142, 36, 36, 0.05);
+    --rosa: #8E2424 5%;
+    --fonte-principal: "Inter";
+    --cinza-borda: #EAECF0;
+    --cinza-rodape: #F9FAFB;
+    --cinza-direitos: #98A2B3;
+    --cinza-borda: #D0D5DD;
+}
+
+/*html { 
+    min-width: 320px; 
+    max-width: 1440px; 
+
+} */
+
+body {
+    width:100%;
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-weight: 400;
+    font-size: 16px;
+}
+    
+    
+    

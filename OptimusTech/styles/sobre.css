@@ -1,0 +1,54 @@
+.sobre-nos {
+    text-align: center;
+    padding: 5em 0;
+}
+
+.sobre-nos h2 {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.sobre-nos h3 {
+    color: var(--preto);
+    font-size: 48px;
+    font-weight: 600;
+    padding: 1em 0;
+}
+
+.sobre-nos p {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 10em;
+}
+
+.numeros {
+    display: flex;
+    justify-content: center;
+    margin: 0 10vw 10vw 10vw;
+}
+
+.destaques {
+    width: 25%;
+    padding: 0 1em;
+}
+
+.destaques h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho); 
+}
+
+.destaques h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto); 
+    padding: 1em 0;
+}
+
+.destaques p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-claro); 
+    line-height: 24px;
+}

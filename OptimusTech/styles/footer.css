@@ -1,0 +1,45 @@
+footer {
+    background-color: var(--cinza-rodape);
+    text-align: center;
+    padding: 6em 0;
+}
+
+.texto h3 {
+    color: var(--preto);
+    font-size: 36px;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.texto p {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+
+.direitos {
+    color: var(--cinza-direitos);
+    padding-top: 3em;
+}
+
+.email {
+    font-size: 16px;
+    color: var(--cinza-escuro);   
+    font-family: var(--fonte-principal);
+    padding: 1em;
+    border-radius: 8px;
+    border: 1px solid var(--cinza-borda);
+    width: 25%;
+}
+
+.cadastro-email button {
+    color: var(--branco);
+    font-size: 16px;
+    background-color: var(--vermelho);
+    font-weight: 500;
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+    margin-left: 1em;
+}
